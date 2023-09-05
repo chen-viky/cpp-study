@@ -1,0 +1,16 @@
+{
+  "name": "cpp-with-nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build:debug": "node-gyp rebuild --debug --verbose",
+    "postinstall": "node-gyp rebuild"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node-addon-api": "^7.0.0"
+  }
+}
